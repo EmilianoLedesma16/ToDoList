@@ -1,0 +1,8 @@
+CREATE DATABASE taskmaster;
+USE taskmaster;
+
+CREATE TABLE tasks (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    text VARCHAR(255) NOT NULL,
+    completed BOOLEAN DEFAULT FALSE
+);
